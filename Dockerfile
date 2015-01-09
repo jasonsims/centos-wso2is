@@ -19,5 +19,5 @@ ENV JAVA_HOME /usr/lib/jvm/jre-1.7.0-openjdk
 ENV CARBON_HOME /opt/wso2is-5.0.0
 ENV PATH $CARBON_HOME/bin:$PATH
 
-EXPOSE 9443
-CMD ["bash", "wso2server.sh", "start"]
+EXPOSE 9443 9763
+CMD wso2server.sh --test
