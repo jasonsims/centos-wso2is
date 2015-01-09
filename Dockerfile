@@ -1,4 +1,4 @@
-FROM lighthopper/openjdk-centos
+FROM lighthopper/openjdk-centos:latest
 MAINTAINER Jason Sims
 
 # Install dependencies
